@@ -1,0 +1,67 @@
+{
+    "@context": [
+      "dtmi:dtdl:context;2"
+    ],
+    "@id": "dtmi:EM021:Wildfire:Custom;1",
+    "@type": "Interface",
+    "displayName": {
+      "en": "Onboard ADC sensors"
+    },
+    "description" : {
+      "en" : "Onboard ADC sensors for wildfire detection project"
+    },
+    "contents": [
+      {
+        "@type": [
+          "Telemetry"
+        ],
+        "name": "flame_sensor",
+        "displayName": {
+          "en": "Flame sensor reading"
+        },
+        "description" : {
+          "en" : "Near IR Flame sensor"
+        },
+        "schema": "integer"
+      },
+      {
+        "@type": [
+          "Telemetry"
+        ],
+        "name": "adc1",
+        "displayName": {
+          "en": "ADC1 raw reading"
+        },
+        "description" : {
+          "en" : "Raw data from adc1 sensor"
+        },
+        "schema": "integer"
+      },
+      {
+        "@type": [
+          "Telemetry"
+        ],
+        "name": "adc2",
+        "displayName": {
+          "en": "ADC2 raw reading"
+        },
+        "description" : {
+          "en" : "Raw data from adc2 sensor"
+        },
+        "schema": "integer"
+      },
+      {
+        "@type": [
+          "Telemetry"
+        ],
+        "name": "CO_AX",
+        "displayName": {
+          "en": "Carbon Monoxide PPM"
+        },
+        "description" : {
+          "en" : "PPM reading of Carbon Monoxide Sensor"
+        },
+        "schema": "float"
+      }
+    ]
+  }
