@@ -4,4 +4,4 @@ The design can be run with using codes in HPS_Software directory and following r
 
 Link to Reference Application: https://github.com/terasic/InnovateFPGA2021
 
-Link to InnovateFPGA Contest Page: https://www.innovatefpga.com/cgi-bin/innovate/teams.pl?Id=EM021
+Link to InnovateFPGA Project Page: https://www.innovatefpga.com/cgi-bin/innovate/teams.pl?Id=EM021
