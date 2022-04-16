@@ -1,5 +1,7 @@
 # EM021-Wildfire
 
-The design can be run with using codes in HPS_Software directory and following reference application's "Step 6: Azure IoT Module Enablement Phase" tutorial. The tutorial requires the previous steps to be completed.
+The design can be run with using codes in HPS_Software directory and following reference application's "PaaS Provision" tutorial. While creating "run_pythonapp.sh" adding "sleep 60" before the last line is recommended to give device time to configure FPGA fabric and allow nios2 processor program to run.
 
-Link to step 6: https://github.com/intel-iot-devkit/terasic-de10-nano-kit/blob/master/azure-de10nano-document/sensor-aggregation-reference-design-for-azure/docs/step6-azure-iot-module-enablement-phase.md
+Link to tutorial: https://github.com/terasic/InnovateFPGA2021/blob/main/docs/PaaS-Provision.md
+
+Link to InnovateFPGA Contest Page: https://www.innovatefpga.com/cgi-bin/innovate/teams.pl?Id=EM021
